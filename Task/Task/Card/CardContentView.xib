@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CardView" customModule="Task" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="patternYazy" translatesAutoresizingMaskIntoConstraints="NO" id="kGL-Zl-0cD">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="kGL-Zl-0cD" secondAttribute="bottom" id="72R-sF-RoI"/>
+                <constraint firstItem="kGL-Zl-0cD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="L1g-ji-6To"/>
+                <constraint firstItem="kGL-Zl-0cD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="L6r-5l-uhq"/>
+                <constraint firstAttribute="trailing" secondItem="kGL-Zl-0cD" secondAttribute="trailing" id="bC7-Wh-Qla"/>
+            </constraints>
+            <connections>
+                <outlet property="backImageView" destination="kGL-Zl-0cD" id="crr-wz-sXx"/>
+            </connections>
+            <point key="canvasLocation" x="19" y="2"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="patternYazy" width="375" height="139"/>
+    </resources>
+</document>
