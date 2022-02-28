@@ -19,7 +19,7 @@ class CardView: UIView {
     }
 
     
-    
+    // tets
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
