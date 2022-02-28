@@ -23,6 +23,9 @@ class CardView: UIView {
         setup()
     }
 
+    
+    
+    
     func setup() {
         // Shadow
         layer.shadowColor = UIColor.black.cgColor
