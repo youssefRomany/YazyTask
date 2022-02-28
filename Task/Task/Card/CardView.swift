@@ -18,6 +18,8 @@ class CardView: UIView {
         setup()
     }
 
+    
+    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
