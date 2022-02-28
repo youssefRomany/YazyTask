@@ -17,7 +17,7 @@ class CardView: UIView {
         super.init(frame: frame)
         setup()
     }
-
+// ios queen nevine
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
