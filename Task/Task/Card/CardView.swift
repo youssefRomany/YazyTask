@@ -17,7 +17,14 @@ class CardView: UIView {
         super.init(frame: frame)
         setup()
     }
+<<<<<<< HEAD
 //  queen nevine
+=======
+
+    
+    // tets
+    //eeee
+>>>>>>> main
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
